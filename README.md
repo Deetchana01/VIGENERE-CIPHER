@@ -1,10 +1,9 @@
 # VIGENERE-CIPHER
 ## EX. NO: 4
+ 
 
-IMPLEMETATION OF VIGENERE CIPHER
-
+## IMPLEMETATION OF VIGENERE CIPHER
 ## AIM:
-
 To implement the Vigenere Cipher substitution technique using C program.
 
 ## DESCRIPTION:
@@ -28,7 +27,7 @@ STEP-8: Repeat the above steps to generate the entire cipher text.
 ```
 
 ## PROGRAM
-```
+~~~
  #include <stdio.h>
  #include <string.h>
  void vigenereCipher(char *text, char *key, int decrypt) {
@@ -46,10 +45,9 @@ STEP-8: Repeat the above steps to generate the entire cipher text.
  printf("Decrypted Message: %s\n", text);
  return 0;
  }
-```
+~~~
 ## OUTPUT
-<img width="1701" height="1026" alt="image" src="https://github.com/user-attachments/assets/034d114e-5e8c-46aa-a785-2ea0d713b7d4" />
-
+<img width="1351" height="612" alt="image" src="https://github.com/user-attachments/assets/41781978-9aea-4243-890d-5ad24373ca6b" />
 
 ## RESULT
-The program is executed successfully 
+The program is executed successfully.
